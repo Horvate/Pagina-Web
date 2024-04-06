@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>FaleConosco</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0"/>
+  <link rel="stylesheet" 
+        href=public/css/EstilosGlobais.css></link>
+  <link rel="stylesheet" 
+        href="public/css/Index.css"></link>
+  <link rel="stylesheet" 
+        href="public/css/header.css"></link>
+  <link rel="stylesheet" 
+        href="public/css/footer.css"></link>
+  <link rel="stylesheet" 
+        href="public/css/main.css"></link>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="link-logo">
+      <img src="fotos/LogoTipoCarSuper.png" 
+           width="150px" 
+           height="50px"  alt="LogoCarSporting" />
+    </a>
+    <nav class="menu">
+      <ul>
+        <li><a href="CarSportings.html">Car 
+               Sportings</a></li>
+        <li><a href="CarsStar.html">Cars Stars</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="title">MANDE SUAS CURIOSIDADES SOBRE 
+        CARROS SUPER ESPORTIVOS</h1>
+    <h2 class="title">Para entrar em contato preencha os 
+        campos abaixo e clique em enviar</h2>
+    <form action="index.html" class="contact-form margin-horizontal-10px">
+      <div>
+        <label>Nome:</label><input type="text" 
+               name="name" maxlength="70" required/>
+      </div>
+      <div>
+        <label>Email:</label><input type="text" 
+               name="Email" 
+               maxlength="150" required/>
+      </div>
+      <div>
+        <label>Comentarios</label>
+        <textarea nome="Comentario" cols="50" rows="4"> 
+        </textarea>
+      </div>
+      <div>
+        <label>Sexo</label>
+        <input type="radio" name="sexo" required/> 
+        <span>Masculino</span>
+        <input type="radio" name="sexo" required/> 
+        <span>Feminino</span>
+      </div>
+      <div>
+        <label>Onde conheceu nosso site?</label>
+        <select name="conheceu" required>
+          <option selected>YouTube</option>
+          <option>Google</option>
+          <option>Amigos</option>
+          <option>Outros</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" name="Aceite" required/>
+        <span>Aceito receber novidades sobre carros 
+              sportivos</span>
+      </div>
+      <div>
+        <input type="submit" name="Enviar" 
+               value="Enviar"/>
+        <input type="reset" name="Limpar" 
+               value="Limpar"/>
+      </div>
+    </form>
+  </main>
+  <footer>
+     <section>
+         <span>www.CarSportingSuper.com.br</span> <br />
+         <span>Conheça nosso canal no Youtube!</span>
+     </section>
+  </footer>
+</body>
+</html>

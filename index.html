@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, 
+          initial-scale=1.0"/>
+    <title>CarSportingSuper</title>
+    <link rel="stylesheet" 
+          href="public/css/EstilosGlobais.css"></link>
+    <link rel="stylesheet" 
+          href="public/css/Index.css"></link>
+    <link rel="stylesheet" 
+          href="public/css/header.css"></link>
+    <link rel="stylesheet" 
+          href="public/css/footer.css"></link>
+    <link rel="stylesheet" 
+          href="public/css/main.css"></link>
+    <script src="https://code.jquery.com/jquery-3."6.0.min.js></script>
+    <script src="index.js"></script>
+  </head>
+<body>
+  <header>
+    <a href="index.html" class="link-logo">
+      <img src="fotos/LogoTipoCarSuper.png" 
+           width="150px" 
+           height="50px"  alt="LogoCarSporting" />
+    </a>
+    <nav class="menu">
+      <ul>
+        <li><a href="CarSportings.html">Cars 
+               Sportings</a></li>
+        <li><a href="CarsStar.html">Cars Star</a></li>
+        <li><a href="FaleConosco.html">Fale Conosco</a> 
+        </li>
+      </ul>
+    </nav>
+    <div class="mt-2" id="titulo">
+    <p id="novoParagrafo" class="title">Os carros esportivos mais potentes 
+       do mundo com transmissão manual</p>
+    </div>
+  </header>
+<main>
+  <section>
+    <figure class="cover-container">
+    <img class="size" src="fotos/ImgPorche" width="300" 
+         height="180" 
+         alt="Porche-gt3-rs"/>
+    </figure>
+    <div class="contact-form">
+    <h2 class="title"> O rei dos carros esportivos 
+         produzidos em série oferecidos com uma caixa de 
+         câmbio manual é o Porsche 911 S/T, o cupê que 
+         comemora o 60º aniversário do 911 e é equipado 
+         com o mesmo motor de 4,0 litros naturalmente 
+         aspirado de 525 cv do 911 GT3 RS.
+    </h2>
+    </div>
+  </section>
+  <section class="cover-container">
+    <video class="size" src="Video/Porche911gt3rs.mp4" 
+           controls width="300" height="180">
+    </video>
+  </section>
+</main>
+<footer>
+  <section>
+    <div>
+      <input id="imput" type="text" placeholder="Digite um novo titulo">
+    <button class="mt-2" type="button" onclick="alterarHTML()">Mostrar novo titulo</button>
+    </div>
+    <span>www.CarSportingSuper.com.br</span> <br />
+    <span>Conheça nosso canal no Youtube!</span>
+  </section>
+</footer>
+   <script src="manipulaãoDom.js"></script>
+</body>
+</html>
